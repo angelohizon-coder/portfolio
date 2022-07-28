@@ -1,9 +1,9 @@
 import React from "react";
-import ResponsiveDrawer from "./components/ResponsiveDrawer.jsx";
+import MiniDrawer from "./components/MiniDrawer.jsx";
 
 function App() {
   return (
-    <ResponsiveDrawer />
+    <MiniDrawer />
   );
 }
 
