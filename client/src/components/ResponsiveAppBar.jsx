@@ -66,8 +66,8 @@ const ResponsiveAppBar = () => {
         <Toolbar disableGutters>
 
         {/* Desktop */}
-          <Icon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
-            <img src={require("../images/reading-eyeglasses.png")} className="image-logo" />
+        <Icon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
+            <img src={require("../images/reading-eyeglasses.png")} />
           </Icon>
           <Typography
             variant="h6"
